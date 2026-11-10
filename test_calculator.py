@@ -11,12 +11,16 @@ class TestCalculator(unittest.TestCase):
     # ##########################
 
     ######## Partner 1
-    # def test_multiply(self): # 3 assertions
-    #     fill in code
+    def test_multiply(self):
+        self.assertEqual(multiply(2, 3), 6)
+        self.assertEqual(multiply(5, 0), 0)
+        self.assertEqual(multiply(-2, 4), -8)
 
-    # def test_divide(self): # 3 assertions
-    #     fill in code
-    # ##########################
+    def test_divide(self):
+        self.assertEqual(divide(2, 8), 4)
+        self.assertEqual(divide(1, 10), 10)
+        with self.assertRaises(ZeroDivisionError):
+            divide(0, 5)
 
     ######## Partner 2
     # def test_divide_by_zero(self): # 1 assertion
