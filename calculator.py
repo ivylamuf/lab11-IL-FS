@@ -1,3 +1,6 @@
+# https://github.com/ivylamuf/lab11-IL-FS.git
+# Partner 1: Ivy
+# Partner 2: FInn
 """
 calculator.py
 - Defines functions used to create a simple calculator
